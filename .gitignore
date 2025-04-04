@@ -1,33 +1,3 @@
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-
-# Virtual environments
-venv/
-ENV/
-env/
-.env
-
-# Distribution / packaging
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-*.egg-info/
-.installed.cfg
-*.egg
-
-# Log files
-*.log
-
 # IDE directories (np. VSCode, PyCharm)
 .vscode/
 .idea/
@@ -36,8 +6,5 @@ var/
 .DS_Store
 Thumbs.db
 
-# Node.js (jeśli używasz frontendu z Vite lub Vue)
-node_modules/
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+# Environment files
+.env
